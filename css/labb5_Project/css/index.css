@@ -1,0 +1,383 @@
+
+
+#signin_body{
+    background-color: #494a91;
+}
+
+
+#signup_body{
+    background-color: #494a91;
+}
+
+
+#record{
+    display: flex;
+}
+
+
+
+/*Search input design*/
+#search_form{
+    display: inline-flex;
+    float: right;
+    margin-right: 10px;
+}
+
+#search_input{
+    margin-bottom: 4px;
+    border-radius: 20px;
+}
+
+#search_button{
+    width: auto;
+    margin-top: auto;
+    border-radius: 20px;
+}
+
+
+/*Menu*/
+#menu {
+    display: flex;
+    list-style-type: none;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+a {
+    text-decoration: none;  
+}
+
+
+#hem{
+    padding-right: 25px;
+}
+
+#produkt{
+    padding-right: 25px;
+}
+
+#kontakt{
+    padding-right: 25px;
+}
+
+
+
+#sign_menu_design{
+    display: flex;
+    margin-left: auto;
+    text-decoration: none;  
+    list-style-type: none;
+}
+
+
+#signin_menu{
+    padding-left: 19px;
+    padding-right: 12px;
+}
+
+#signup_menu{
+    padding-left: 4px;
+    padding-right: 15px;
+}
+
+#sign_menu_design, #search_form{
+    /* margin-right: ;
+    margin-left: ; */
+}
+
+
+
+
+h3{
+    text-align: center;
+}
+
+#signin_div{
+        width: 360px;
+        height: 310px;
+        margin: auto;
+        background: white;
+        border:2px solid black;
+        margin-top: 10%;
+        background-color: rgba(255, 255, 255, 0.4);
+}
+
+
+#signup_div {
+    border: 1px solid black;
+    width: 360px;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    background-color: rgba(255, 255, 255, 0.40);
+}
+
+
+
+/*Sign up*/
+form{
+
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input{
+    width: 90%;
+    padding: 7px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+
+
+
+input[type="submit"]{
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: mediumblue;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+
+p{
+    padding: 5px;
+    text-align: center;
+}
+
+/* input[type="submit"] {
+    padding: ;
+    width: ;
+} */
+p{
+    text-align: center;
+}
+
+/* #creat_link{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: max-content;
+    border: 1px solid;
+    font-size: x-large;
+    background-color: antiquewhite;
+} */
+
+
+#creat_product_form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:35%;
+    width: 30%;
+}
+
+#name_form{
+    font-size: large;
+}
+
+#price_form{
+    font-size: large;
+}
+
+#image_form{
+    font-size: medium;
+}
+
+#add_product{
+    border-radius: 20px;
+    font-size: large;
+    width: fit-content;
+}
+
+
+#footer{
+    margin: auto;
+    width: 99,5%;
+    border: 1px solid black;
+    background: #2f2e2d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#error{
+    height: 30px;
+    background: #30d5369c;
+    width: auto;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* Contact */
+.container_kontakt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#kontact_form{
+    width: 359px;
+}
+
+#fullname{
+    width: 334px;
+}
+
+#email{
+    width: 334px;
+}
+
+#help{
+    height: 128px;
+    width: 334px;
+    padding: 7px;
+}
+
+
+
+
+/* Creat Product */
+#creat_product_div{
+    margin-top: 7%;
+}
+
+#creat_product_header{
+    text-align: center;
+}
+
+#select{
+    width: 94%;
+}
+
+
+/* Check form */
+#check_form{
+    background-color: #DFDEDE;
+    margin-right: 40%;
+    margin-left: 15%;
+}
+
+#payment_button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+#payment_input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    font-size: large;
+}
+
+#brand_category{
+    display: flex;
+}
+
+#AddCategory{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+}
+
+#category_form{
+    margin-bottom: 25px;
+}
+
+#add_new_brand_link{
+    border: 1px solid;
+    font-size: x-large;
+    background-color: antiquewhite;
+    margin:auto ;
+    margin-bottom: 15px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#brand{
+    background-color: #163adfc9;
+    color: white;
+    font-size: x-large;
+    display: flex;
+    margin: auto;
+}
+
+
+
+
+
+/* About page */
+.container {
+    display: grid;
+    width: 99%;
+    height: 100%;
+    grid-template-areas:
+    "left main right";
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 409px 1fr 80px;
+    margin: auto;
+}
+
+.left {
+    grid-area: left; 
+    background-color: #7295ff;
+    overflow: auto;
+}
+.main {
+    grid-area: main;
+    background-color: #c8ffb7;
+    overflow: auto;
+}
+.right {
+    grid-area: right;
+    background-color: #df4444e5;
+    overflow: auto;
+}
+
+.left, .main, .right{
+	height: -webkit-fill-available;
+}
+
+
+.left, .main, p{
+    margin: auto;
+    padding-bottom: 10px;
+    text-align: start;
+}
+
+
+
+
+
+/* Admin Page */
+
+/* #span{
+    background-color: ;
+} */
+
